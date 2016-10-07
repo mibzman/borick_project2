@@ -1,22 +1,42 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11198.2" systemVersion="16A304a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Borick_Project2" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <view key="view" contentMode="scaleToFill" id="b1G-9t-1mi">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FSn-zy-2Xl"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbQ-lQ-R4A"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xzb-e2-ICi"/>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="trailing" secondItem="vbQ-lQ-R4A" secondAttribute="trailing" id="4zP-Sj-TOE"/>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="leading" secondItem="b1G-9t-1mi" secondAttribute="leadingMargin" constant="4" id="5Qw-x6-BIA"/>
+                            <constraint firstItem="vbQ-lQ-R4A" firstAttribute="leading" secondItem="FSn-zy-2Xl" secondAttribute="trailing" constant="20" id="6fs-bc-0hc"/>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="top" secondItem="FSn-zy-2Xl" secondAttribute="bottom" constant="20" id="6gi-nl-oIl"/>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="height" secondItem="FSn-zy-2Xl" secondAttribute="height" id="Q82-YJ-0Hh"/>
+                            <constraint firstItem="vbQ-lQ-R4A" firstAttribute="height" secondItem="FSn-zy-2Xl" secondAttribute="height" id="TxR-hh-RJF"/>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="top" secondItem="vbQ-lQ-R4A" secondAttribute="bottom" constant="20" id="dnL-Ph-5pL"/>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="centerX" secondItem="b1G-9t-1mi" secondAttribute="centerX" id="fka-uM-C0d"/>
+                            <constraint firstItem="vbQ-lQ-R4A" firstAttribute="width" secondItem="FSn-zy-2Xl" secondAttribute="width" id="gZC-WH-slP"/>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="top" secondItem="b1G-9t-1mi" secondAttribute="top" constant="365" id="gap-Dv-Rpa"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Xzb-e2-ICi" secondAttribute="bottom" constant="33" id="tb4-Ve-Sra"/>
+                            <constraint firstItem="Xzb-e2-ICi" firstAttribute="leading" secondItem="FSn-zy-2Xl" secondAttribute="leading" id="v2b-Cb-f66"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

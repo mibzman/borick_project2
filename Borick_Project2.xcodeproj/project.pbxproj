@@ -11,7 +11,6 @@
 		EE7E10F71DA8114200CCA662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E10F61DA8114200CCA662 /* ViewController.swift */; };
 		EE7E10FA1DA8114200CCA662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7E10F81DA8114200CCA662 /* Main.storyboard */; };
 		EE7E10FC1DA8114200CCA662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7E10FB1DA8114200CCA662 /* Assets.xcassets */; };
-		EE7E10FF1DA8114200CCA662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7E10FD1DA8114200CCA662 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +19,6 @@
 		EE7E10F61DA8114200CCA662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EE7E10F91DA8114200CCA662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EE7E10FB1DA8114200CCA662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EE7E10FE1DA8114200CCA662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE7E11001DA8114200CCA662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,7 +56,6 @@
 				EE7E10F61DA8114200CCA662 /* ViewController.swift */,
 				EE7E10F81DA8114200CCA662 /* Main.storyboard */,
 				EE7E10FB1DA8114200CCA662 /* Assets.xcassets */,
-				EE7E10FD1DA8114200CCA662 /* LaunchScreen.storyboard */,
 				EE7E11001DA8114200CCA662 /* Info.plist */,
 			);
 			path = Borick_Project2;
@@ -123,7 +120,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE7E10FF1DA8114200CCA662 /* LaunchScreen.storyboard in Resources */,
 				EE7E10FC1DA8114200CCA662 /* Assets.xcassets in Resources */,
 				EE7E10FA1DA8114200CCA662 /* Main.storyboard in Resources */,
 			);
@@ -150,14 +146,6 @@
 				EE7E10F91DA8114200CCA662 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		EE7E10FD1DA8114200CCA662 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EE7E10FE1DA8114200CCA662 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
