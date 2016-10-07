@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE7E10F51DA8114200CCA662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E10F41DA8114200CCA662 /* AppDelegate.swift */; };
+		EE7E10F71DA8114200CCA662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7E10F61DA8114200CCA662 /* ViewController.swift */; };
+		EE7E10FA1DA8114200CCA662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7E10F81DA8114200CCA662 /* Main.storyboard */; };
+		EE7E10FC1DA8114200CCA662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE7E10FB1DA8114200CCA662 /* Assets.xcassets */; };
+		EE7E10FF1DA8114200CCA662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE7E10FD1DA8114200CCA662 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE7E10F11DA8114200CCA662 /* Borick_Project2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Borick_Project2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE7E10F41DA8114200CCA662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE7E10F61DA8114200CCA662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE7E10F91DA8114200CCA662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE7E10FB1DA8114200CCA662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE7E10FE1DA8114200CCA662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE7E11001DA8114200CCA662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE7E10EE1DA8114200CCA662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE7E10E81DA8114200CCA662 = {
+			isa = PBXGroup;
+			children = (
+				EE7E10F31DA8114200CCA662 /* Borick_Project2 */,
+				EE7E10F21DA8114200CCA662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE7E10F21DA8114200CCA662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E10F11DA8114200CCA662 /* Borick_Project2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE7E10F31DA8114200CCA662 /* Borick_Project2 */ = {
+			isa = PBXGroup;
+			children = (
+				EE7E10F41DA8114200CCA662 /* AppDelegate.swift */,
+				EE7E10F61DA8114200CCA662 /* ViewController.swift */,
+				EE7E10F81DA8114200CCA662 /* Main.storyboard */,
+				EE7E10FB1DA8114200CCA662 /* Assets.xcassets */,
+				EE7E10FD1DA8114200CCA662 /* LaunchScreen.storyboard */,
+				EE7E11001DA8114200CCA662 /* Info.plist */,
+			);
+			path = Borick_Project2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE7E10F01DA8114200CCA662 /* Borick_Project2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE7E11031DA8114200CCA662 /* Build configuration list for PBXNativeTarget "Borick_Project2" */;
+			buildPhases = (
+				EE7E10ED1DA8114200CCA662 /* Sources */,
+				EE7E10EE1DA8114200CCA662 /* Frameworks */,
+				EE7E10EF1DA8114200CCA662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Borick_Project2;
+			productName = Borick_Project2;
+			productReference = EE7E10F11DA8114200CCA662 /* Borick_Project2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE7E10E91DA8114200CCA662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Borick,Samuel";
+				TargetAttributes = {
+					EE7E10F01DA8114200CCA662 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EE7E10EC1DA8114200CCA662 /* Build configuration list for PBXProject "Borick_Project2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE7E10E81DA8114200CCA662;
+			productRefGroup = EE7E10F21DA8114200CCA662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE7E10F01DA8114200CCA662 /* Borick_Project2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE7E10EF1DA8114200CCA662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7E10FF1DA8114200CCA662 /* LaunchScreen.storyboard in Resources */,
+				EE7E10FC1DA8114200CCA662 /* Assets.xcassets in Resources */,
+				EE7E10FA1DA8114200CCA662 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE7E10ED1DA8114200CCA662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE7E10F71DA8114200CCA662 /* ViewController.swift in Sources */,
+				EE7E10F51DA8114200CCA662 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EE7E10F81DA8114200CCA662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7E10F91DA8114200CCA662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE7E10FD1DA8114200CCA662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE7E10FE1DA8114200CCA662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE7E11011DA8114200CCA662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE7E11021DA8114200CCA662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE7E11041DA8114200CCA662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Borick_Project2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7thIsotope.Borick-Project2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE7E11051DA8114200CCA662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Borick_Project2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "-7thIsotope.Borick-Project2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE7E10EC1DA8114200CCA662 /* Build configuration list for PBXProject "Borick_Project2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7E11011DA8114200CCA662 /* Debug */,
+				EE7E11021DA8114200CCA662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE7E11031DA8114200CCA662 /* Build configuration list for PBXNativeTarget "Borick_Project2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE7E11041DA8114200CCA662 /* Debug */,
+				EE7E11051DA8114200CCA662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE7E10E91DA8114200CCA662 /* Project object */;
+}
