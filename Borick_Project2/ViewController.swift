@@ -16,6 +16,21 @@ class ViewController: UIViewController {
         //http://stackoverflow.com/questions/9530075/ios-access-app-info-plist-variables-in-code
         //https://gist.github.com/mlcollard
         
+        guard let path = Bundle.main.path(forResource: "AppData", ofType:"plist") else {
+            return
+        }
+        
+        // create an array from the contents of this file
+        guard let appData = NSArray(contentsOfFile: path) else {
+            print("UNable to open plist as array")
+            return
+        }
+        
+        for data in appData {
+            print(data);
+            
+        }
+        
     }
 
 
