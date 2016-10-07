@@ -31,6 +31,9 @@ class ViewController: UIViewController {
             
         }
         
+        //fill text views with data
+        //The UI is basicaly complete, I may add a scrollview around text view 3 because the text can get so long, or I may shorten the amount of text
+        
     }
 
 
