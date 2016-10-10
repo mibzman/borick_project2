@@ -10,6 +10,17 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBAction func SwapButton(_ sender: AnyObject) {
+        
+        
+    }
+    
+    @IBOutlet weak var View1: UITextView!
+    
+    @IBOutlet weak var View2: UITextView!
+    
+    @IBOutlet weak var View3: UITextView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -20,9 +31,11 @@ class ViewController: UIViewController {
             return
         }
         
+        
         // create an array from the contents of this file
         guard let appData = NSArray(contentsOfFile: path) else {
             print("UNable to open plist as array")
+            print("path:" + path)
             return
         }
         
@@ -32,6 +45,11 @@ class ViewController: UIViewController {
         }
         
         //fill text views with data
+        
+        
+        
+        
+        
         //The UI is basicaly complete, I may add a scrollview around text view 3 because the text can get so long, or I may shorten the amount of text
         
     }
