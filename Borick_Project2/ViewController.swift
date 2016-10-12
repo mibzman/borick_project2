@@ -10,6 +10,37 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    func GetPlist() -> Dictionary<String, String>{
+        
+        var dictRoot: NSDictionary?
+        if let path = Bundle.main.path(forResource: "AppData", ofType: "plist") {
+            dictRoot = NSDictionary(contentsOfFile: path)
+        }
+        
+        guard let AppData = dictRoot else
+        {
+            // Your dictionary contains an array of dictionary
+            // Now pull an Array out of it.
+            
+            // Now a loop through Array to fetch single Item from catList which is Dictionary
+            /*
+             dict.forEach({ (dict) in
+             print("Category Name \(dict["category_name"]!)")
+             print("Category Id \(dict["cid"])")
+             })
+             
+             for (key, value) in dict {
+             print (key, value)
+             }*/
+            
+            print("oh no!  AppData failed to initialize!  RUN!")
+            let emptyDictionary = [String: String]()
+            return emptyDictionary
+        }
+        return AppData as! Dictionary
+    }
+    
     @IBAction func SwapButton(_ sender: AnyObject) {
         
         
@@ -24,28 +55,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        //this is just a test, a test to see if we can make it rest
         //http://stackoverflow.com/questions/9530075/ios-access-app-info-plist-variables-in-code
         //https://gist.github.com/mlcollard
         
-        guard let path = Bundle.main.path(forResource: "AppData", ofType:"plist") else {
-            return
-        }
         
         
-        // create an array from the contents of this file
-        guard let appData = NSArray(contentsOfFile: path) else {
-            print("UNable to open plist as array")
-            print("path:" + path)
-            return
-        }
-        
-        for data in appData {
-            print(data);
-            
-        }
-        
-        //fill text views with data
         
         
         
