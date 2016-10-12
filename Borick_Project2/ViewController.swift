@@ -42,10 +42,11 @@ class ViewController: UIViewController {
     }
     
     @IBAction func SwapButton(_ sender: AnyObject) {
-        
+        let temp = self.View1.text
+        self.View1.text = self.View2.text
+        self.View2.text = temp
         
     }
-    
     @IBOutlet weak var View1: UITextView!
     
     @IBOutlet weak var View2: UITextView!
@@ -58,14 +59,9 @@ class ViewController: UIViewController {
         //http://stackoverflow.com/questions/9530075/ios-access-app-info-plist-variables-in-code
         //https://gist.github.com/mlcollard
         
-        
-        
-        
-        
-        
-        
-        
-        //The UI is basicaly complete, I may add a scrollview around text view 3 because the text can get so long, or I may shorten the amount of text
+        let AppData = GetPlist()
+        self.View1.text = AppData["leftText"]
+        self.View2.text = AppData["centerText"]
         
     }
 
