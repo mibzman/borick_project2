@@ -24,6 +24,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        //this is just a test, a test to see if we can make it rest
         //http://stackoverflow.com/questions/9530075/ios-access-app-info-plist-variables-in-code
         //https://gist.github.com/mlcollard
         
