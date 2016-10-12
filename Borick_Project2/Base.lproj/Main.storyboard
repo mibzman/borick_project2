@@ -39,7 +39,11 @@
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vbQ-lQ-R4A" userLabel="View 2">
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wYX-uV-e8e"/>
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="wYX-uV-e8e">
+                                        <connections>
+                                            <action selector="SliderValueChanged:" destination="BYZ-38-t0r" eventType="valueChanged" id="vA1-Ct-Hsg"/>
+                                        </connections>
+                                    </slider>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="wYX-uV-e8e" firstAttribute="leading" secondItem="vbQ-lQ-R4A" secondAttribute="leading" constant="24" id="Cxy-Um-Aoz"/>
@@ -99,6 +103,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="Slider" destination="wYX-uV-e8e" id="e8b-Z5-MHZ"/>
                         <outlet property="View1" destination="dC0-ZX-JCA" id="Td6-ry-Xot"/>
                         <outlet property="View2" destination="jow-MV-bCE" id="0sJ-2t-ETh"/>
                         <outlet property="View3" destination="hOJ-a9-uyz" id="epq-ii-nO1"/>

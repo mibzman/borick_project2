@@ -11,47 +11,57 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    func GetPlist() -> Dictionary<String, String>{
+    
+    var AppData = Dictionary<String,String>()
+    
+    func GetPlist(){
         
         var dictRoot: NSDictionary?
         if let path = Bundle.main.path(forResource: "AppData", ofType: "plist") {
             dictRoot = NSDictionary(contentsOfFile: path)
         }
         
-        guard let AppData = dictRoot else
+        guard let tempAppData = dictRoot else
         {
-            // Your dictionary contains an array of dictionary
-            // Now pull an Array out of it.
-            
-            // Now a loop through Array to fetch single Item from catList which is Dictionary
-            /*
-             dict.forEach({ (dict) in
-             print("Category Name \(dict["category_name"]!)")
-             print("Category Id \(dict["cid"])")
-             })
-             
-             for (key, value) in dict {
-             print (key, value)
-             }*/
             
             print("oh no!  AppData failed to initialize!  RUN!")
             let emptyDictionary = [String: String]()
-            return emptyDictionary
+            AppData = emptyDictionary
+            return
         }
-        return AppData as! Dictionary
+        AppData = tempAppData as! Dictionary
+    }
+    
+    
+    @IBOutlet weak var Slider: UISlider!
+    
+    @IBOutlet weak var View1: UITextView!
+    
+    @IBOutlet weak var View2: UITextView!
+    
+    @IBOutlet weak var View3: UITextView!
+    
+    
+    @IBAction func SliderValueChanged(_ sender: AnyObject) {
+        let currentValue = Float(Slider.value)
+        let leftText = AppData["leftText"]
+        
+        //broken
+        let numWords = leftText?.characters.split{ $0.contains(",.! ") }.count
+        let Words = leftText?.characters.split{ $0.contains(",.! ") }
+        let wordLimit = Int(numWords * currentValue)
+        
+        
+        
+        
+        
     }
     
     @IBAction func SwapButton(_ sender: AnyObject) {
         let temp = self.View1.text
         self.View1.text = self.View2.text
         self.View2.text = temp
-        
     }
-    @IBOutlet weak var View1: UITextView!
-    
-    @IBOutlet weak var View2: UITextView!
-    
-    @IBOutlet weak var View3: UITextView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -59,7 +69,7 @@ class ViewController: UIViewController {
         //http://stackoverflow.com/questions/9530075/ios-access-app-info-plist-variables-in-code
         //https://gist.github.com/mlcollard
         
-        let AppData = GetPlist()
+        GetPlist()
         self.View1.text = AppData["leftText"]
         self.View2.text = AppData["centerText"]
         
