@@ -3,15 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>rightText</key>
-	<string>This is the right text box.  wow there is a lot of text here, and the amount of text that you can see is controlled by the slider above!  that&apos;s awesome.  This project definitely deserves an A+. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non dolor ac neque tempor scelerisque. Suspendisse interdum velit et nunc iaculis vehicula. Nullam sed neque nisl. Curabitur lacinia nibh at ante aliquam, et bibendum odio interdum. Aliquam maximus ex sit amet enim posuere, ac congue dolor accumsan. Suspendisse consequat efficitur quam vitae dictum. Aliquam eu enim pulvinar, vestibulum mauris eget, feugiat arcu. Cras in odio felis. Quisque ipsum nisi, vestibulum rhoncus placerat et, elementum a ipsum. Pellentesque non arcu sit amet lacus pellentesque mattis nec eget quam. Sed vel ante ligula.
-
-Nam scelerisque sodales nisl sed aliquet. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed lobortis ac augue egestas tempus. Proin vehicula, ligula a elementum varius, ipsum sem facilisis sapien, eu finibus eros tellus ac mi. Vestibulum vel nibh sit amet eros egestas dapibus. Aenean sit amet molestie nunc, nec pretium purus. Nulla a ligula enim.
-
-Mauris ultrices, nunc ut vehicula semper, tellus enim tincidunt est, nec pulvinar ante tortor non purus. Quisque nisl ex, laoreet nec viverra et, efficitur eu sem. Proin dapibus fringilla eleifend. Nulla mi sem, tincidunt non nisi placerat, tempor vestibulum metus. Ut tincidunt tempor mollis. Fusce condimentum quam sapien, a fermentum ante egestas non. Nam rhoncus leo tincidunt, posuere purus faucibus, lacinia nisl.
-
-Nullam et tortor laoreet ex rutrum rhoncus ut ac libero. Maecenas tincidunt elit sed nisl hendrerit rutrum ut id velit. Pellentesque lorem velit, auctor quis massa ut, egestas consectetur neque. Morbi in ante quis ante ullamcorper scelerisque vel et dolor. Donec sagittis, est vel sagittis eleifend, ipsum justo congue massa, ut elementum sapien odio in eros. Vestibulum blandit sagittis turpis vel aliquet. Sed ut volutpat risus. Curabitur non nunc a sem maximus vestibulum. Donec gravida ipsum non augue tempor rutrum. Sed dui metus, efficitur et varius nec, gravida at enim. Fusce imperdiet est non velit porttitor pulvinar. Duis pharetra sit amet massa at tincidunt. Proin cursus vestibulum dolor, vitae fringilla neque bibendum at. Praesent a dapibus neque, non commodo nulla. Fusce scelerisque convallis ipsum in varius.
-
-Suspendisse dictum orci et tellus sagittis, at gravida elit congue. Aliquam erat volutpat. Praesent accumsan pulvinar erat eget egestas. Vestibulum at mollis elit, at hendrerit neque. Nulla lorem erat, ullamcorper sed sagittis et, fermentum vitae eros. Vestibulum iaculis pellentesque odio, et dictum mauris dignissim et. Pellentesque congue molestie varius. Ut malesuada diam sed tellus consequat, non venenatis lorem volutpat. Curabitur bibendum dignissim posuere.</string>
+	<string>This is the right text box.  The amount of text that you can see is controlled by the slider above!  that&apos;s awesome.  blaa blaa blaaa blaaa</string>
 	<key>centerText</key>
 	<string>This is some text that started out in the center!  neat!</string>
 	<key>leftText</key>

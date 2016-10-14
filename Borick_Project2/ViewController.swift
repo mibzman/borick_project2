@@ -32,6 +32,23 @@ class ViewController: UIViewController {
         AppData = tempAppData as! Dictionary
     }
     
+    func SliderString(_ SliderVal: Float)-> String{
+        let rightText = AppData["rightText"]
+        var numWords = rightText?.components(separatedBy: " ").count
+        numWords! -= 1
+        let Words = rightText?.components(separatedBy: " ")
+        //print(Words)
+        let wordLimit = Int(Float(numWords!) * SliderVal)
+        //print(wordLimit)
+        
+        var output = ""
+        
+        for word in Words![0...wordLimit] {
+            output += word + " "
+        }
+        return output
+    }
+    
     
     @IBOutlet weak var Slider: UISlider!
     
@@ -43,19 +60,10 @@ class ViewController: UIViewController {
     
     
     @IBAction func SliderValueChanged(_ sender: AnyObject) {
-        let currentValue = Float(Slider.value)
-        let leftText = AppData["leftText"]
-        
-        //broken
-        let numWords = leftText?.characters.split{ $0.contains(",.! ") }.count
-        let Words = leftText?.characters.split{ $0.contains(",.! ") }
-        let wordLimit = Int(numWords * currentValue)
-        
-        
-        
-        
-        
+        self.View3.text = SliderString(Slider.value)
     }
+    
+    
     
     @IBAction func SwapButton(_ sender: AnyObject) {
         let temp = self.View1.text
@@ -72,6 +80,7 @@ class ViewController: UIViewController {
         GetPlist()
         self.View1.text = AppData["leftText"]
         self.View2.text = AppData["centerText"]
+        self.View3.text = SliderString(Slider.value)
         
     }
 
